@@ -1,19 +1,25 @@
 @import (reference) '../../style/index.less';
 
 .container {
-    margin: auto;
-    @media @desktop {
-        width: 90%;
-    }
+  margin: auto;
+  @media @desktop {
+    width: 90%;
+  }
 }
 
 .content {
-    background-color: @post-theme;
-    box-shadow: @post-article-box-shadow;
-    color: @post-text;
-    box-sizing: border-box;
-    padding: @padding-medium;
-    @media @desktop {
-        padding:  @padding-medium * 2 @padding-medium * 4;
+  background-color: @post-theme;
+  box-shadow: @post-article-box-shadow;
+  color: @post-text;
+  box-sizing: border-box;
+  padding: @padding-medium;
+  @media @desktop {
+    padding: @padding-medium * 2 @padding-medium * 4;
+  }
+  @media @mobile {
+    padding: @padding-medium * 1 @padding-medium * 1;
+    img {
+      max-width: 100% !important;
     }
+  }
 }
