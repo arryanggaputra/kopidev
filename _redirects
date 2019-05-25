@@ -2,3 +2,4 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://determined-bassi-32a049.netlify.com/* https://kopi.dev/:splat 301!
+https://www.kopi.dev/* https://kopi.dev/:splat 301!
