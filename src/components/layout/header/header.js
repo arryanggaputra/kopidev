@@ -52,7 +52,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div
+      <header
         className={style.container}
         style={this.state.fixedHeader ? { backgroundImage: 'none' } : null}
       >
@@ -62,7 +62,6 @@ class Header extends Component {
               <div className={style.LogoKopidev}>
                 <img src={LogoKopidev} alt={Config.siteTitle} />
               </div>
-              {/* <h4>{Config.siteTitle}</h4> */}
             </Link>
           </div>
           <div className={style.menuButton}>
@@ -83,15 +82,12 @@ class Header extends Component {
             <li>
               <Link to={Utils.resolvePageUrl(Config.pages.home)}>Home</Link>
             </li>
-            {/* <li>
-          <Link to={Utils.resolvePageUrl(Config.pages.tag)}>Tags</Link>
-        </li> */}
             <li>
               <Link to={Utils.resolvePageUrl(Config.pages.about)}>About</Link>
             </li>
           </ul>
         </div>
-      </div>
+      </header>
     )
   }
 }

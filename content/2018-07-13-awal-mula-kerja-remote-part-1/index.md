@@ -3,7 +3,7 @@ title: Awal Mula Gue Kerja Remote
 date: 2018-02-14
 tags: [remoteWork]
 path: blog/awal-mula-kerja-remote-part-1
-cover: ./preview.jpg
+cover: ./preview.png
 excerpt: Assalamualaikum… Udah lama banget gue enggak nulis di blog, saking lamanya sampe bingung mau mencet huruf yang mana dulu 😂.
 ---
 
@@ -35,7 +35,7 @@ Walaupun gue gak sepenuhnya kerja remote dan bisa dibilang newbie dalam dunia pe
 5.  Produktivitas gue meningkat lebih tinggi.
 
 <figure class="left">
-  <img class="wakanda" width="500px" src="https://cdn-images-1.medium.com/max/1200/1*FpIZsTZB3RWdhZ-yoyq-KA.jpeg">
+  <img loading="lazy" class="wakanda" width="500px" src="https://cdn-images-1.medium.com/max/1200/1*FpIZsTZB3RWdhZ-yoyq-KA.jpeg">
   <figcaption class="imageCaption">Kerja di demandailing cafe, FYI, makanannya mahal. 😂</figcaption>
 </figure>
 

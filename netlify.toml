@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://www.kopi.dev/*"
+  to = "https://kopi.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://kopidev.netlify.com/*"
+  to = "https://kopi.dev/:splat"
+  status = 301
+  force = true
