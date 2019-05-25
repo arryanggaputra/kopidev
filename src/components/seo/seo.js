@@ -81,7 +81,23 @@ function SEO({
                     }))
                   : []
               )}
-          />
+          >
+            <link
+              rel="preconnect"
+              href="https://fonts.gstatic.com/"
+              crossorigin
+            />
+            <link
+              rel="preload"
+              href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+              rel="stylesheet"
+            />
+            <link
+              rel="preload"
+              href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"
+              rel="stylesheet"
+            />
+          </Helmet>
         )
       }}
     />
