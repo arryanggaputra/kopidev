@@ -1,0 +1,25 @@
+@import (reference) '../../../style/index.less';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  label {
+    width: 100%;
+    strong {
+      font-family: 'Nunito', sans-serif;
+      font-weight: bold;
+    }
+    a {
+      color: @post-highlight;
+      text-transform: capitalize;
+      transition: @transition-time color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.excerpt {
+  color: @post-highlight;
+  font-size: @font-size * 1.3;
+}
